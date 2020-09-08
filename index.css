@@ -159,6 +159,12 @@ body{
 .section{
     margin-bottom: 30px;
 }
+
+h3{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
 .p-m-left{
 padding-left: 30px;
 }
