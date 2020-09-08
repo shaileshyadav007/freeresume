@@ -1,0 +1,180 @@
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container{
+    width: 80%;
+    height: 100vh;
+    background-color: rgb(247, 247, 247);
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.header{
+    text-align: center;
+    font-family: cursive;
+    background-color: rgb(192, 77, 221);
+    padding: 20px;
+}
+
+.title{
+    margin: 0px;
+}
+
+.navbar{
+    margin-top: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+}
+.nav-link{
+    margin-right: 5px;
+    font-size: 25px;
+    height: 30px;
+    background-color: white;
+    color: rgb(139, 6, 247);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    background-color: rgb(37, 34, 34);
+    color: azure;
+    font-weight: 400;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.special{
+    color: rgb(132, 40, 218);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bigsize{
+    text-align: left;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.midsize{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(211, 28, 74);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.start{
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(216, 204, 221);
+    background-color: rgb(117, 11, 216);
+    border: 1pz solid rgb(96, 16, 172);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* simple resum */
+
+.container-resume{
+    width: 27cm;
+    height: 29cm;
+    background-color: rgb(238, 215, 215);
+    overflow-y: auto;
+    padding: 10px;
+    box-sizing:border-box;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+
+}
+.d-lnline{
+    display: inline;
+}
+.width-20{
+    width: 20%;
+    padding: 2px;
+}
+.width-80{
+    width: 80%;
+    padding: 2px;
+}
+.width-50{
+    width: 50%;
+    padding: 2px;
+}
+
+.photo{
+    width: 5cm;
+    height: 5cm;
+    background-color: rgb(243, 239, 235);
+}
+.info-text{
+    font-size: 25px;
+}
+.r-text{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.big{
+    height: 70px;
+    width: auto;
+    font-size: 20px;
+    font-optical-sizing: inherit;
+    border: 0px;
+}
+.info-field{
+    height: 25px;
+    width: auto;
+    font-size: 25px;
+    overflow: visible;
+}
+
+.sm-info-field{
+    height: 25px;
+    width: 80px;
+    font-size: 25px;
+    overflow: visible;
+}
+
+/* contact info */
+.section{
+    margin-bottom: 30px;
+}
+.p-m-left{
+padding-left: 30px;
+}
+.p-l-left{
+    padding-left: 50px;
+}
+
+
+input{
+    border :none;
+ }
+
+ select{
+    border :none;
+ }
+ option{
+    border :none;
+ }
+ 
